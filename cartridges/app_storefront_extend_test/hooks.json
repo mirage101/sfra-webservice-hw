@@ -1,0 +1,8 @@
+{
+    "hooks": [
+        {
+            "name":"app.custom.hook.testHook",
+            "script": "./cartridge/scripts/hooks/testHook.js"
+        }
+    ]
+}

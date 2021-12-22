@@ -1,0 +1,12 @@
+<div class="container">
+    <hr />
+        
+        <h2 class='text-center'>Spaceship: ${pdict.spaceship.name}</h2>
+        <p class='text-center'>Manufacturer: ${pdict.spaceship.manufacturer}</p>
+        <p class='text-center'>Starship class: ${pdict.spaceship.starship_class}</p>
+        <p class='text-center'>Cost in credits: ${pdict.spaceship.cost_in_credits}</p>
+    <hr />
+</div>
+
+
+
