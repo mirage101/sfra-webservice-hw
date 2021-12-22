@@ -1,10 +1,10 @@
 <div class="container">
     <hr />
         
-        <h2 class='text-center'>Spaceship: ${pdict.spaceship.name}</h2>
-        <p class='text-center'>Manufacturer: ${pdict.spaceship.manufacturer}</p>
-        <p class='text-center'>Starship class: ${pdict.spaceship.starship_class}</p>
-        <p class='text-center'>Cost in credits: ${pdict.spaceship.cost_in_credits}</p>
+        <h2 class='text-center'>Spaceship: ${pdict.getSpaceship.name}</h2>
+        <p class='text-center'>Manufacturer: ${pdict.getSpaceship.manufacturer}</p>
+        <p class='text-center'>Starship class: ${pdict.getSpaceship.starship_class}</p>
+        <p class='text-center'>Cost in credits: ${pdict.getSpaceship.cost_in_credits}</p>
     <hr />
 </div>
 

@@ -9,14 +9,14 @@ var cache = require('*/cartridge/scripts/middleware/cache');
  * @function
  */
 server.get(
-    'List',
+    'Fact',
     server.middleware.include,
     cache.applyDefaultCache,
-    function (req, res, next) {        
-        var spaceship = JSON.parse(spaceshipService.getSpaceship());
-        
-        res.render('spaceship',{
-            spaceship: spaceship
+    function (req, res, next) {
+        var getSpaceship = JSON.parse(spaceshipService.getSpaceship());
+
+        res.render('spaceship', {
+            getSpaceship: getSpaceship
         });
         next();
     }

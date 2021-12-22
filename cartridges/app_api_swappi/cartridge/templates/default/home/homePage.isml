@@ -19,14 +19,14 @@
         <isslot id="guest-slot" description="Guest slot for home greetings." context="global" />
     </isif>
     
-    <isinclude url="${URLUtils.url('Spaceship-List')}"/>
+    
     
     <div class="home-main homepage">
 
         <isslot id="home-main-m" description="Main home page slot." context="global" />
     </div>
 
-  
+  <isinclude url="${URLUtils.url('Spaceship-Fact')}"/>
 
     <div class="container home-categories homepage">
         <div class="row home-main-categories no-gutters">
