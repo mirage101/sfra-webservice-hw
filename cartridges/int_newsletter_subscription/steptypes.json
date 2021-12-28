@@ -1,0 +1,12 @@
+{
+    "step-types": {
+        "script-module-step":
+        [
+            {
+                "@type-id": "custom.SubscribeModuleJob",
+                "description": "Script for newsletter subscription",
+                "module": "int_newsletter_subscription/cartridge/scripts/steps/SubscribeModuleJob"
+            }
+        ]
+    }
+}
